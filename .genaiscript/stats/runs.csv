@@ -1,0 +1,4 @@
+script,status,cost,total_tokens,prompt_tokens,completion_tokens,trace,version
+test,error,0,0,0,0,,1.75.0
+test,error,0,0,0,0,,1.75.0
+test,error,0,0,0,0,,1.75.0
