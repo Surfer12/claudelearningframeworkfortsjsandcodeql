@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#fafafa"/>
+    
+    <!-- Time Axis -->
+    <line x1="100" y1="500" x2="700" y2="500" stroke="#333" stroke-width="2"/>
+    <text x="400" y="550" text-anchor="middle" font-family="Arial" font-size="14">Time (24hr cycle)</text>
+    
+    <!-- Performance Curve -->
+    <path d="M 100,400 Q 250,200 400,150 T 700,400" fill="none" stroke="#2196F3" stroke-width="3"/>
+    
+    <!-- State Zones -->
+    <g id="state-regions">
+        <!-- Dawn State -->
+        <rect x="100" y="100" width="200" height="400" fill="#E3F2FD" fill-opacity="0.3"/>
+        <text x="200" y="130" text-anchor="middle" font-family="Arial" font-size="14">Dawn State</text>
+        
+        <!-- Peak State -->
+        <rect x="300" y="100" width="200" height="400" fill="#FFF3E0" fill-opacity="0.3"/>
+        <text x="400" y="130" text-anchor="middle" font-family="Arial" font-size="14">Peak State</text>
+        
+        <!-- Recovery State -->
+        <rect x="500" y="100" width="200" height="400" fill="#E8F5E9" fill-opacity="0.3"/>
+        <text x="600" y="130" text-anchor="middle" font-family="Arial" font-size="14">Recovery State</text>
+    </g>
+
+    <!-- Performance Markers -->
+    <g id="markers">
+        <!-- Network Stability -->
+        <circle cx="200" cy="300" r="10" fill="#2196F3"/>
+        <text x="200" y="280" text-anchor="middle" font-family="Arial" font-size="12">Network Stability</text>
+        
+        <!-- Task Execution -->
+        <circle cx="400" cy="150" r="10" fill="#FF9800"/>
+        <text x="400" y="130" text-anchor="middle" font-family="Arial" font-size="12">Task Execution</text>
+        
+        <!-- Pattern Integration -->
+        <circle cx="600" cy="350" r="10" fill="#4CAF50"/>
+        <text x="600" y="330" text-anchor="middle" font-family="Arial" font-size="12">Pattern Integration</text>
+    </g>
+
+    <!-- Metabolic Support Indicators -->
+    <g id="metabolic-indicators">
+        <text x="150" y="450" font-family="Arial" font-size="12" fill="#666">Ketone Dominant</text>
+        <text x="400" y="450" font-family="Arial" font-size="12" fill="#666">Mixed Substrate</text>
+        <text x="650" y="450" font-family="Arial" font-size="12" fill="#666">Fat Adapted</text>
+    </g>
+</svg>
